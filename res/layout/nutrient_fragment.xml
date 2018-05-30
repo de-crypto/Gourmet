@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.61">
+
+        <TextView
+            android:text="Calories (per 100g)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_weight="1.15"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txt_calorie"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_calorie"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:textColor="@android:color/background_dark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.61">
+
+        <TextView
+                android:text="Protein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="3.15"
+                android:textSize="22sp"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold"/>
+
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_protein"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.61">
+
+        <TextView
+            android:text="Carbohydrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_weight="2.08"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:layout_above="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="39dp" />
+
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_carbo"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.61">
+
+        <TextView
+                android:text="Fat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="4.08"
+                android:textSize="22sp"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold"/>
+
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_fat"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.61">
+
+        <TextView
+            android:text="Cholesterol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="2.30"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:layout_marginBottom="21dp"
+            android:layout_above="@+id/textView6"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_choles"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:textColor="@android:color/background_dark"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_toEndOf="@+id/textView7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.61">
+
+        <TextView
+            android:text="Sodium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:layout_alignBaseline="@+id/txt_sodium"
+            android:layout_alignBottom="@+id/txt_sodium"
+            android:layout_alignEnd="@+id/txt_sodium"
+            android:layout_marginEnd="141dp"
+            android:layout_weight="491.89" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_sodium"
+            android:textSize="22sp"
+            android:textColor="@android:color/background_dark"
+            android:layout_above="@+id/txt_iron"
+            android:layout_marginRight="54dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.61"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Iron"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:layout_alignBaseline="@+id/txt_iron"
+            android:layout_alignBottom="@+id/txt_iron"
+            android:layout_alignParentStart="true"
+            android:layout_weight="0.51" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_iron"
+            android:layout_weight="0.09"
+            android:textColor="@android:color/background_dark"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

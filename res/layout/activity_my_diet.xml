@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_my_diet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.tensorflow.demo.MyDiet"
+    android:background="@android:color/background_light">
+
+    <org.tensorflow.demo.BottomNavigationViewEx
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/navigationbar_background"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/bottom_navigation_menu" />
+
+    <TextView
+        android:text=" Kcal"
+        android:id="@+id/txt_cal_amt"
+        android:textColor="@color/colorDarkbloodred"
+        android:layout_width="100dp"
+        android:layout_alignBaseline="@+id/txt_calconsumed"
+        android:layout_alignBottom="@+id/txt_calconsumed"
+        android:layout_toEndOf="@+id/txt_calconsumed"
+        android:layout_height="30dp"
+        android:textSize="20sp" />
+
+    <com.github.lzyzsd.circleprogress.ArcProgress
+        android:id="@+id/arc_progress"
+        android:background="@color/colorwhite"
+        android:layout_marginLeft="50dp"
+        custom:arc_progress="0"
+        custom:arc_bottom_text="Calories"
+        android:layout_marginTop="22dp"
+        custom:arc_unfinished_color="@color/colorGrey"
+        custom:arc_finished_color="@color/colorDarkbloodred"
+        custom:arc_stroke_width="10dp"
+        custom:arc_text_size="70sp"
+        custom:arc_text_color="@color/colorDarkbloodred"
+        custom:arc_bottom_text_size="35sp"
+        custom:arc_suffix_text_size="32dp"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        custom:arc_angle="265"/>
+
+    <TextView
+        android:text="Calories Consumed:"
+        android:layout_height="30dp"
+        android:layout_marginTop="49dp"
+        android:id="@+id/txt_calconsumed"
+        android:textColor="@color/colorDarkbloodred"
+        android:textSize="22sp"
+        android:layout_width="210dp"
+        android:layout_below="@+id/arc_progress"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp" />
+
+    <TextView
+        android:text="Walk for:"
+        android:layout_height="30dp"
+        android:textColor="@color/colorDarkbloodred"
+        android:textSize="22sp"
+        android:layout_marginTop="21dp"
+        android:id="@+id/txt_walk"
+        android:layout_width="100dp"
+        android:layout_marginStart="44dp"
+        android:layout_below="@+id/txt_cal_amt"
+        android:layout_alignStart="@+id/arc_progress" />
+
+    <TextView
+        android:text="min"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/txt_walk_min"
+        android:textColor="@color/colorDarkbloodred"
+        android:textSize="22sp"
+        android:layout_alignBaseline="@+id/txt_walk"
+        android:layout_alignBottom="@+id/txt_walk"
+        android:layout_toEndOf="@+id/txt_walk" />
+
+</RelativeLayout>
