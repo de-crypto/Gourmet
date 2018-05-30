@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/background_light">
+
+    <item android:title="My Collection"
+        android:id="@+id/item1"
+        android:background="@color/colorbloodred"/>
+    <item android:title="My Diet"
+        android:id="@+id/item2"
+        android:background="@color/colorbloodred"/>
+    <item android:title="About Us"
+        android:id="@+id/item3"
+        android:background="@color/colorbloodred"/>
+</menu>

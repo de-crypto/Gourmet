@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+  -->
+  <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+    <!-- API 11 theme customizations can go here. -->
+  </style>
+
+  <style name="FullscreenTheme" parent="android:Theme.Holo">
+    <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="android:windowBackground">@null</item>
+    <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+    <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+  </style>
+
+  <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+    <!--  <item name="android:background">@color/black_overlay</item>  -->
+  </style>
+
+  <style name="Customtheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorbloodred</item>
+    <item name="colorPrimaryDark">@color/colorbloodred</item>
+    <item name="colorAccent">@color/colorlightgreen</item>
+    <item name="android:colorBackground">@android:color/background_light</item>
+    <item name="android:navigationBarColor">@color/colorDarkbloodred</item>
+    <item name="android:colorAccent">@color/colorDarkbloodred</item>
+    <item name="android:colorPrimaryDark">@color/colorDarkbloodred</item>
+    <item name="android:colorPrimary">@color/colorDarkbloodred</item>
+    <item name="android:statusBarColor">@color/colorDarkbloodred</item>
+    <item name="actionBarStyle">@style/ActionBar.Solid.Example</item>
+  </style>
+
+  <style name="ActionBar.Solid.Example" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <item name="background">@color/colorDarkbloodred</item>
+  </style>
+
+  <style name="FoodinfoTheme" parent="Theme.AppCompat.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorDarkbloodred</item>
+    <item name="colorPrimaryDark">@color/colorDarkbloodred</item>
+    <item name="colorAccent">@color/colorlightgreen</item>
+    <item name="android:colorBackground">@android:color/background_light</item>
+    <item name="android:navigationBarColor">@color/colorDarkbloodred</item>
+    <item name="android:colorAccent">@color/colorDarkbloodred</item>
+    <item name="android:colorPrimaryDark">@color/colorDarkbloodred</item>
+    <item name="android:colorPrimary">@color/colorDarkbloodred</item>
+    <item name="android:statusBarColor">@color/colorDarkbloodred</item>
+    <item name="actionBarStyle">@style/ActionBar.Solid.Example</item>
+  </style>
+</resources>

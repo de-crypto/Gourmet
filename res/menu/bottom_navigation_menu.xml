@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_collection"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:title="My Collection" />
+
+    <item
+        android:id="@+id/action_detect"
+        android:enabled="true"
+        android:icon="@drawable/ic_detector"
+        android:title="Camera" />
+
+    <item
+        android:id="@+id/action_detectedfood"
+        android:enabled="true"
+        android:icon="@drawable/ic_detectedfood"
+        android:title="Detected food" />
+
+    <item
+        android:id="@+id/action_mydiet"
+        android:enabled="true"
+        android:icon="@drawable/diet"
+        android:title="My Diet" />
+
+
+
+</menu>

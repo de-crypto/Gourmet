@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Back to Home"
+        android:id="@+id/collection_item1" />
+    <item android:title="My Diet"
+        android:id="@+id/collection_item2" />
+    <item android:title="About Us"
+        android:id="@+id/collection_item3" />
+</menu>
