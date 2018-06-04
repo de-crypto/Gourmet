@@ -12,3 +12,14 @@
 <pre>
 <img src="https://github.com/de-crypto/Gourmet/blob/master/Images/Screenshot_2018-06-05-01-30-52-924_org.tensorflow.demo.png" width="300" height="500">        <img src="https://github.com/de-crypto/Gourmet/blob/master/Images/Screenshot_2018-05-26-20-05-15-879_org.tensorflow.demo.png" width="300" height="500"> 
 </pre>
+
+## Manages Collection of all the Detected Food Items
+<pre>
+<img src="https://github.com/de-crypto/Gourmet/blob/master/Images/Screenshot_2018-06-05-01-00-51-950_org.tensorflow.demo.png" width="300" height="500">
+</pre>
+
+## Itelligent Management of User's Diet
+<pre>
+<img src="https://github.com/de-crypto/Gourmet/blob/master/Images/Screenshot_2018-06-05-01-00-37-960_org.tensorflow.demo.png" width="300" height="500">
+</pre>
+
